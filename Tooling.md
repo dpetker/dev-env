@@ -13,6 +13,9 @@ This is a list of tooling I've found useful (OS X-focused).
   * pigments
   * react
   * revert-buffer
+* Atom Themes
+  * atom-material-syntax
+  * monokai
 
 Also with the following custom styleguide code:
 
