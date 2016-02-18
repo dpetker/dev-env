@@ -15,6 +15,7 @@ This is a list of tooling I've found useful (OS X-focused).
   * revert-buffer
 * Atom Themes
   * atom-material-syntax
+  * atom-material-ui
   * monokai
 
 Also with the following custom styleguide code:
