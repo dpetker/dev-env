@@ -48,6 +48,8 @@ Also with the following custom styleguide code:
 
 * iTerm2
   * oh-my-zsh
+  * Source Code Pro
+  * iterm2colorschemes.com
 * Sketch
 * Pixelmator
 * VMWare Fusion (want to replace w/ Vagrant & VirtualBox eventually)
