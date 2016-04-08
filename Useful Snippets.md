@@ -53,3 +53,33 @@ $ git config --global user.name "Your Name Comes Here"
 $ git config --global user.email you@yourdomain.example.com
 $ git config --global color.ui true
 ```
+
+## Colour Scheme
+
+There's a `.itermcolors` file for use with iTerm, but here are the hex values, just in case:
+
+```
+#212121 //Ansi 0 Color
+#b7141e //Ansi 1 Color
+#7aba39 //Ansi 10 Color
+#fee92e //Ansi 11 Color
+#53a4f3 //Ansi 12 Color
+#a94dbb //Ansi 13 Color
+#26bad1 //Ansi 14 Color
+#d8d8d8 //Ansi 15 Color
+#7aba39 //Ansi 2 Color
+#f5971d //Ansi 3 Color
+#134eb2 //Ansi 4 Color
+#a94dbb //Ansi 5 Color
+#0e707c //Ansi 6 Color
+#eeeeee //Ansi 7 Color
+#424242 //Ansi 8 Color
+#e83a3f //Ansi 9 Color
+#222221 //Background Color
+#b7141e //Bold Color
+#16aec9 //Cursor Color
+#dedede //Cursor Text Color
+#e4e4e4 //Foreground Color
+#3d3d3d //Selected Text Color
+#dedede //Selection Color
+```
