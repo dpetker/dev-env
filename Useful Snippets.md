@@ -83,3 +83,9 @@ There's a `.itermcolors` file for use with iTerm, but here are the hex values, j
 #3d3d3d //Selected Text Color
 #dedede //Selection Color
 ```
+
+## Slack Theme
+
+Also based on this colour theme:
+
+`#3D3D3D,#424242,#16aec9,#eeeeee,#212121,#e4e4e4,#7aba39,#b7141e`
