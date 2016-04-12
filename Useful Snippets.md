@@ -18,6 +18,12 @@ $ sudo visudo
 
 Then add the line `<your username> ALL=(ALL) NOPASSWD:ALL`
 
+## Remove `.DS_Store` Files
+
+```
+$ find . -name '.DS_Store' -type f -delete
+```
+
 ## Hosts File Entries
 
 Edit `/etc/hosts` and add entries of the form, `<IP Address> <hostname>`
