@@ -16,4 +16,5 @@
   "trim_trailing_white_space_on_save": true,
   "overlay_scroll_bars": "enabled",
   "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "node_modules"],
+  "always_show_minimap_viewport": true,
 }
