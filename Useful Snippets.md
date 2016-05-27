@@ -100,4 +100,4 @@ Also based on this colour theme:
 
 Or a slightly different Slack theme, based off Google's [Material Design colour palette](https://www.google.com/design/spec/style/color.html#color-color-palette):
 
-`#424242,#212121,#0288D1,#FAFAFA,#212121,#FAFAFA,#4CAF50,#F44336`
+`#424242,#616161,#9575CD,#FAFAFA,#616161,#FAFAFA,#4CAF50,#F44336`
