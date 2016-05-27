@@ -95,3 +95,7 @@ There's a `.itermcolors` file for use with iTerm, but here are the hex values, j
 Also based on this colour theme:
 
 `#3D3D3D,#424242,#16aec9,#eeeeee,#212121,#e4e4e4,#7aba39,#b7141e`
+
+Or a slightly different Slack theme, based off Google's [Material Design colour palette](https://www.google.com/design/spec/style/color.html#color-color-palette):
+
+`#424242,#212121,#0288D1,#FAFAFA,#212121,#FAFAFA,#4CAF50,#F44336`
