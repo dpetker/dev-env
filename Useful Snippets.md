@@ -90,6 +90,8 @@ There's a `.itermcolors` file for use with iTerm, but here are the hex values, j
 #dedede //Selection Color
 ```
 
+Or use [this theme](https://github.com/MartinSeeler/iterm2-material-colors) based off Google's Material Design.
+
 ## Slack Theme
 
 Also based on this colour theme:
