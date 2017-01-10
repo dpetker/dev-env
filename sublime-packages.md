@@ -1,7 +1,9 @@
 # Sublime Packages I've Found Useful
 
 * Color Highlighter
-* Git-StatusBar
+* Dockerfile Syntax Highlighting
+* GitStatusBar
 * GitGutter
 * Material Theme
+* Pretty JSON
 * Sass
