@@ -7,3 +7,4 @@
 * Material Theme
 * Pretty JSON
 * Sass
+* A File Icon
