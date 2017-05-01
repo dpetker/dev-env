@@ -4,7 +4,8 @@
 * Dockerfile Syntax Highlighting
 * GitStatusBar
 * GitGutter
-* Material Theme
+* Babel
+* Material Theme or [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme)
 * Pretty JSON
 * Sass
 * A File Icon
