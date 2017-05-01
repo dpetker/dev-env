@@ -5,7 +5,7 @@
 * GitStatusBar
 * GitGutter
 * Babel
-* Material Theme or [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme)
+* Material Theme
 * Pretty JSON
 * Sass
 * A File Icon
