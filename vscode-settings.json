@@ -1,9 +1,10 @@
 // Place your settings in this file to overwrite the default settings
 {
-  "editor.tabSize": 2,
-  "workbench.colorTheme": "Material Theme",
-  "editor.rulers": [
-    80
-  ],
-  "files.insertFinalNewline": true
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Material Theme",
+    "editor.rulers": [
+        80
+    ],
+    "files.insertFinalNewline": true,
+    "workbench.iconTheme": "material-theme-icons"
 }
