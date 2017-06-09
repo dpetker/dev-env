@@ -4,3 +4,4 @@
 - Prettify JSON (`mohsen1.prettify-json`)
 - Sass (`robinbentley.sass-indented`)
 - vetur (Vue) (`octref.vetur`)
+- Project Manager (`alefragnani.project-manager`)
