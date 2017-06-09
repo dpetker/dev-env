@@ -1,0 +1,6 @@
+- Material Theme (`Equinusocio.vsc-material-theme`)
+- Color Highlight (`naumovs.color-highlight`)
+- Docker (`PeterJausovec.vscode-docker`)
+- Prettify JSON (`mohsen1.prettify-json`)
+- Sass (`robinbentley.sass-indented`)
+- vetur (Vue) (`octref.vetur`)
