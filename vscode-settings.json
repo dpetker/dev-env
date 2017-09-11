@@ -6,16 +6,25 @@
         80
     ],
     "files.insertFinalNewline": true,
-    "workbench.iconTheme": "material-theme-icons",
+    "workbench.iconTheme": "eq-material-theme-icons",
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "**/node_modules": true
+        "**/node_modules": true,
+        "**/.docker-sync": true
     },
-    "workbench.welcome.enabled": false,
     "editor.fontFamily": "Source Code Pro",
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "files.associations": {
+        "*.sbt": "scala"
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#89DDFF50",
+        "editor.selectionHighlightBackground": "#9575CD50"
+    }
 }
