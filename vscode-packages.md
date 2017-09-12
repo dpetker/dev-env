@@ -1,4 +1,5 @@
 - Material Theme (`Equinusocio.vsc-material-theme`)
+- Eiffel Theme (`gerane.Theme-Eiffel`)
 - Color Highlight (`naumovs.color-highlight`)
 - Docker (`PeterJausovec.vscode-docker`)
 - Prettify JSON (`mohsen1.prettify-json`)
