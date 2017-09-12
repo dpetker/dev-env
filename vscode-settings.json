@@ -1,12 +1,10 @@
 // Place your settings in this file to overwrite the default settings
 {
     "editor.tabSize": 2,
-    "workbench.colorTheme": "Material Theme",
     "editor.rulers": [
         80
     ],
     "files.insertFinalNewline": true,
-    "workbench.iconTheme": "eq-material-theme-icons",
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -16,6 +14,10 @@
         "**/node_modules": true,
         "**/.docker-sync": true
     },
+    "projectManager.git.baseFolders": [
+        "/vidyard",
+        "/Users/dpetker/sandbox"
+    ],
     "editor.fontFamily": "Source Code Pro",
     "files.trimTrailingWhitespace": true,
     "files.associations": {
@@ -23,8 +25,9 @@
     },
     "editor.multiCursorModifier": "ctrlCmd",
     "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Eiffel",
     "workbench.colorCustomizations": {
-        "editor.selectionBackground": "#89DDFF50",
-        "editor.selectionHighlightBackground": "#9575CD50"
+        "editor.selectionBackground": "#C3DCFF",
+        "editor.selectionHighlightBackground": "#C3DCFF70"
     }
 }
