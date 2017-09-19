@@ -14,10 +14,6 @@
         "**/node_modules": true,
         "**/.docker-sync": true
     },
-    "projectManager.git.baseFolders": [
-        "/vidyard",
-        "/Users/dpetker/sandbox"
-    ],
     "editor.fontFamily": "Source Code Pro",
     "files.trimTrailingWhitespace": true,
     "files.associations": {
@@ -25,9 +21,13 @@
     },
     "editor.multiCursorModifier": "ctrlCmd",
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Eiffel",
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "eq-material-theme-icons",
     "workbench.colorCustomizations": {
-        "editor.selectionBackground": "#C3DCFF",
-        "editor.selectionHighlightBackground": "#C3DCFF70"
+        "editor.selectionBackground": "#89DDFF50",
+        "editor.selectionHighlightBackground": "#9575CD50"
+    },
+    "materialTheme.cache.workbench.settings": {
+        "themeColours": "Default"
     }
 }
