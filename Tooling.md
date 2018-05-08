@@ -11,4 +11,3 @@ This is a list of tooling I've found useful (OS X-focused).
 * Sketch
 * Pixelmator
 * Postman
-* [Spectacle](https://www.spectacleapp.com/)
