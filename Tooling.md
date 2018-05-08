@@ -10,4 +10,5 @@ This is a list of tooling I've found useful (OS X-focused).
     * Alternatively: I've uploaded dark and light `.itermcolors` to this repo for quick & easy setup
 * Sketch
 * Pixelmator
-* [Insomnia](https://insomnia.rest/)
+* Postman
+* [Spectacle](https://www.spectacleapp.com/)
