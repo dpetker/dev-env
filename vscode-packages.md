@@ -1,5 +1,6 @@
 - Material Theme (`Equinusocio.vsc-material-theme`)
 - Eiffel Theme (`gerane.Theme-Eiffel`)
+- Quiet Light for VSC (better version of the default) (`onecrayon.theme-quietlight-vsc`)
 - Color Highlight (`naumovs.color-highlight`)
 - Docker (`PeterJausovec.vscode-docker`)
 - Prettify JSON (`mohsen1.prettify-json`)
