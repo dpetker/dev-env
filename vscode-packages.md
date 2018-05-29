@@ -1,4 +1,5 @@
 - Material Theme (`Equinusocio.vsc-material-theme`)
+- JetJet-theme (`JohnyGeorges.jetjet-theme`)
 - Agila Theme (`whtsky.agila-theme`)
 - Quiet Light for VSC (better version of the default) (`onecrayon.theme-quietlight-vsc`)
 - Color Highlight (`naumovs.color-highlight`)
