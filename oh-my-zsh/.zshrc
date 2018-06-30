@@ -19,3 +19,5 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 source $ZSH/oh-my-zsh.sh
 
+# Useful aliases
+alias big-folders="du -k ~/* | awk '\$1 > 500000' | sort -nr"
