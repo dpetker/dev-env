@@ -8,6 +8,7 @@ This is a list of tooling I've found useful (OS X-focused).
   * Source Code Pro, [Input](http://input.fontbureau.com/), and/or [FiraCode](https://github.com/tonsky/FiraCode)
   * iterm2colorschemes.com
     * Alternatively: I've uploaded dark and light `.itermcolors` to this repo for quick & easy setup
+      * **Update:** I've found that the base-16 colour schemes (linked below) do a much better job of all this
     * **Note for Terminator:** You have to change your `~/.config/terminator/config` file to set up custom color themes. The iterm2colorschemes github repo has a section for ports to terminator (look for `.config` files). Find the theme you want and copy/paste the key/values under the `[[theme_name]]` bit into your `[profiles] [[default]]` section.
 * tmux
   * [shortcuts](https://gist.github.com/MohamedAlaa/2961058)
