@@ -12,6 +12,7 @@ This is a list of tooling I've found useful (OS X-focused).
 * tmux
   * [shortcuts](https://gist.github.com/MohamedAlaa/2961058)
   * [customizations](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
+* [base-16 colour schemes](https://github.com/chriskempson/base16)
 * Sketch
 * Pixelmator
 * Postman
