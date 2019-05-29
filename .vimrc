@@ -63,6 +63,15 @@ set cursorline
 " Map F6 to toggle NERDTree
 nmap <F6> :NERDTreeToggle<CR>
 
+" GVim-specific settings
+if has('gui_running')
+  set lines=50 columns=140
+  " Disabling this for now, since GVim and terminal don't really support
+  " ligatures :(
+  " set guifont=Fira\ Code\ 10
+  set guifont=Source\ Code\ Pro\ 10
+endif
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " end of @dpetker-specific options, etc.
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
