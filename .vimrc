@@ -46,6 +46,12 @@ inoremap jk <esc>
 set ignorecase
 set incsearch
 
+" Always show the tab bar
+set showtabline=2
+
+" Enable mouse mode
+set mouse=a
+
 " Other random settings
 set tabstop=2
 set shiftwidth=2
@@ -53,6 +59,9 @@ set softtabstop=2
 set expandtab
 set ruler
 set cursorline
+
+" Map F6 to toggle NERDTree
+nmap <F6> :NERDTreeToggle<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " end of @dpetker-specific options, etc.
