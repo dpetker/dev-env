@@ -14,6 +14,7 @@ ZSH_THEME="dpetker"
 plugins=(git dpetker-git-prompt zsh-autosuggestions)
 
 # User configuration
+EDITOR='vim'
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
@@ -21,6 +22,14 @@ source $ZSH/oh-my-zsh.sh
 
 # Useful aliases
 alias big-folders="du -k ~/* | awk '\$1 > 500000' | sort -nr"
+
+# Shorten vim and gvim
+alias v=vim
+alias gv=gvim
+
+# tmux aliases
+alias tmux='tmx2'
+alias work='tmx2 new -A -s work'
 
 # Because colours are fun!
 print_colours() {
