@@ -69,7 +69,7 @@ if has('gui_running')
   " Disabling this for now, since GVim and terminal don't really support
   " ligatures :(
   " set guifont=Fira\ Code\ 10
-  set guifont=Source\ Code\ Pro\ 10
+  set guifont=Source\ Code\ Pro\ 11
 endif
 
 " Allow \cd to :cd into this file's current directory
