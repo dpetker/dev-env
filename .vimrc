@@ -29,7 +29,7 @@ endif
 " @dpetker-specific options, etc.
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let base16colorspace=256  " Access colors present in 256 colorspace
-colorscheme base16-default-dark
+colorscheme base16-materia
 set number
 
 " use » to mark Tabs and ° to mark trailing whitespace
@@ -55,7 +55,7 @@ set ruler
 set cursorline
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" end of danpetker-specific options, etc.
+" end of @dpetker-specific options, etc.
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " THESE MUST BE THE LAST TWO LINES IN THE FILE OR BAD THINGS HAPPEN!
