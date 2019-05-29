@@ -72,6 +72,9 @@ if has('gui_running')
   set guifont=Source\ Code\ Pro\ 10
 endif
 
+" Allow \cd to :cd into this file's current directory
+nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " end of @dpetker-specific options, etc.
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
