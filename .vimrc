@@ -63,6 +63,10 @@ set cursorline
 " Map F6 to toggle NERDTree
 nmap <F6> :NERDTreeToggle<CR>
 
+" More natural split pane placement
+set splitbelow
+set splitright
+
 " GVim-specific settings
 if has('gui_running')
   set lines=50 columns=140
