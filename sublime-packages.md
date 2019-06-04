@@ -10,3 +10,4 @@
 * Pretty JSON
 * Sass
 * A File Icon
+* [base16 colour schemes](https://github.com/chriskempson/base16-textmate)
