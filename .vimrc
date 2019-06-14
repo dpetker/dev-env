@@ -18,6 +18,7 @@ if isdirectory(expand('$HOME/.vim/bundle/Vundle.vim'))
   Plugin 'scrooloose/nerdcommenter'
   Plugin 'scrooloose/nerdtree'
   Plugin 'chriskempson/base16-vim'
+  Plugin 'mhinz/vim-startify'
 
   call vundle#end()
 else
@@ -59,6 +60,7 @@ set softtabstop=2
 set expandtab
 set ruler
 set cursorline
+set autoread " If vim detects a file has changed on disk, reload it
 
 " Map F6 to toggle NERDTree
 nmap <F6> :NERDTreeToggle<CR>
