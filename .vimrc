@@ -18,6 +18,7 @@ if isdirectory(expand('$HOME/.vim/bundle/Vundle.vim'))
   Plugin 'scrooloose/nerdcommenter'
   Plugin 'scrooloose/nerdtree'
   Plugin 'chriskempson/base16-vim'
+  Plugin 'mhinz/vim-signify'
   Plugin 'mhinz/vim-startify'
 
   call vundle#end()
