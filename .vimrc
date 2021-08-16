@@ -30,8 +30,12 @@ endif
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " @dpetker-specific options, etc.
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let base16colorspace=256  " Access colors present in 256 colorspace
-colorscheme base16-materia
+if !exists('g:colors_name') || g:colors_name != 'base16-materia'
+  set termguicolors
+  let base16colorspace=256
+  colorscheme base16-materia
+endif
+
 set number
 
 " use » to mark Tabs and ° to mark trailing whitespace
