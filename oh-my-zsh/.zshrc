@@ -36,6 +36,19 @@ print_colours() {
   for i in {0..255}; do printf "\x1b[38;5;${i}mcolor%-5i\x1b[0m" $i ; if ! (( ($i + 1 ) % 8 )); then echo ; fi ; done
 }
 
+# Set the pane title (for tmux)
+case $TERM in
+  screen*) # tmux terminals are typically represented as "screen-256color"
+      precmd () {
+        if [[ $PWD =~ '/google/src/cloud/[^/]+/(.+)/google3(.*)' ]]; then
+          printf "\033]2;$match[1]\033\\"
+        else
+          printf "\033]2;$(basename `pwd`)\033\\"
+        fi
+      }
+      ;;
+esac
+
 # Base16 Shell
 BASE16_SHELL="$HOME/.config/base16-shell/"
 [ -n "$PS1" ] && \
