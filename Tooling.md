@@ -15,6 +15,7 @@ This is a list of tooling I've found useful (OS X-focused).
   * [customizations](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
 * [base-16 colour schemes](https://github.com/chriskempson/base16)
   * **Note:** I've found the best way to get/use these is to use [`base16-shell`](https://github.com/chriskempson/base16-shell) as it'll make things work nicely in vim, ssh, tmux, etc.
+* [Meld merge/diff tool](https://meldmerge.org/)
 * Sketch
 * Pixelmator
 * Postman
