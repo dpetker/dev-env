@@ -70,11 +70,7 @@ print_colours() {
 case $TERM in
   screen*) # tmux terminals are typically represented as "screen-256color"
       precmd () {
-        if [[ $PWD =~ '/google/src/cloud/[^/]+/(.+)/google3(.*)' ]]; then
-          printf "\033]2;$match[1]\033\\"
-        else
           printf "\033]2;$(basename `pwd`)\033\\"
-        fi
       }
       ;;
 esac
