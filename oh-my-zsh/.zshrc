@@ -28,8 +28,8 @@ alias v=vim
 alias gv=gvim
 
 # tmux aliases
-alias tmux='tmx2'
-alias work='tmx2 new -A -s work'
+#alias tmux='tmx2' # shouldn't be needed any more
+alias work='tmux new -A -s work'
 
 # Because colours are fun!
 print_colours() {
