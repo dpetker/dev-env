@@ -18,6 +18,20 @@ $ sudo visudo
 
 Then add the line `<your username> ALL=(ALL) NOPASSWD:ALL`
 
+## Force bluetooth restart on wake
+
+(This seems to be an issue with Ubuntu laptops)
+
+Save the following as `/usr/lib/systemd/system-sleep/bluetooth-wake.sh` and make it executable:
+
+```
+#!/bin/bash
+
+if [ "${1}" == "post" ]; then
+  sudo service bluetooth restart
+fi
+```
+
 ## Remove `.DS_Store` Files
 
 ```
