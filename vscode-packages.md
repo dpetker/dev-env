@@ -1,9 +1,24 @@
-- Atom One Dark (`akamud.vscode-theme-onedark`)
-- Material Theme (`Equinusocio.vsc-material-theme`)
-- Quiet Light for VSC (better version of the default) (`onecrayon.theme-quietlight-vsc`)
+- Bookmarks - `alefragnani.Bookmarks`
+- Alignment - `annsk.alignment`
+- Transformer - `dakara.transformer`
+- Linters:
+  - `DavidAnson.vscode-markdownlint`
+  - `dbaeumer.vscode-eslint`
+  - `stylelint.vscode-stylelint`
+- EditorConfig - `EditorConfig.EditorConfig`
+- Material Theme:
+  - `Equinusocio.vsc-community-material-theme`
+  - `Equinusocio.vsc-material-theme`
+  - `equinusocio.vsc-material-theme-icons`
+- Prettier - `esbenp.prettier-vscode`
+- Auto close tag - `formulahendry.auto-close-tag`
+- Rainbow CSV - `mechatroner.rainbow-csv`
+- Markdown Preview Enhanced - `shd101wyy.markdown-preview-enhanced`
+- Code Spell Checker - `streetsidesoftware.code-spell-checker`
+- Open in Browser - `techer.open-in-browser`
+- TODO Highlight - `wayou.vscode-todo-highlight`
+
+Older Extensions (may or may not still be useful):
 - Color Highlight (`naumovs.color-highlight`)
-- Docker (`PeterJausovec.vscode-docker`)
 - Prettify JSON (`mohsen1.prettify-json`)
-- Sass (`robinbentley.sass-indented`)
-- vetur (Vue) (`octref.vetur`)
 - Project Manager (`alefragnani.project-manager`)
