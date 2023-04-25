@@ -28,8 +28,14 @@ alias v=vim
 alias gv=gvim
 
 # tmux aliases
-#alias tmux='tmx2' # shouldn't be needed any more
+#alias tmux='tmx2'
 alias work='tmux new -A -s work'
+
+# Git aliases
+alias gs='git status'
+alias gcam='git commit -a -m'
+alias glg='git log --graph'
+alias gco='git checkout'
 
 # Because colours are fun!
 print_colours() {
@@ -81,4 +87,4 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
     [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
         source "$BASE16_SHELL/profile_helper.sh"
 
-base16_materia
+base16_dracula

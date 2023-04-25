@@ -30,10 +30,10 @@ endif
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " @dpetker-specific options, etc.
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-if !exists('g:colors_name') || g:colors_name != 'base16-materia'
+if !exists('g:colors_name') || g:colors_name != 'base16-dracula'
   set termguicolors
   let base16colorspace=256
-  colorscheme base16-materia
+  colorscheme base16-dracula
 endif
 
 set number
