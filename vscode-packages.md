@@ -6,7 +6,9 @@
   - `dbaeumer.vscode-eslint`
   - `stylelint.vscode-stylelint`
 - EditorConfig - `EditorConfig.EditorConfig`
-- Material Theme:
+- [Dracula Theme](https://draculatheme.com/)
+  - `dracula-theme.theme-dracula`
+- ~Material Theme:~
   - `Equinusocio.vsc-community-material-theme`
   - `Equinusocio.vsc-material-theme`
   - `equinusocio.vsc-material-theme-icons`
