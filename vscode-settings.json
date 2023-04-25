@@ -11,14 +11,16 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/node_modules": true,
-        "**/.docker-sync": true
+        "**/.docker-sync": true,
+        "app/build/*": true,
+        "vendor/*": true
     },
     "editor.fontFamily": "Fira Code",
     "files.trimTrailingWhitespace": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Material Theme",
-    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.colorTheme": "Dracula",
+    // "workbench.iconTheme": "eq-material-theme-icons",
     "workbench.colorCustomizations": {
         "terminalCursor.foreground": "#EEFFFF"
     //     "editor.selectionBackground": "#89DDFF50",
@@ -29,6 +31,8 @@
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
+        "**/app/build/*": true,
+        "**/vendor/*": true,
         "**/node_modules/*": true
     },
     "editor.fontLigatures": true,
@@ -36,6 +40,6 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "git.confirmSync": false,
+    "redhat.telemetry.enabled": false,
     "terminal.integrated.fontFamily": "Fira Code",
 }
-
