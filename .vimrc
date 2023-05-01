@@ -20,6 +20,7 @@ if isdirectory(expand('$HOME/.vim/bundle/Vundle.vim'))
   Plugin 'chriskempson/base16-vim'
   Plugin 'mhinz/vim-signify'
   Plugin 'mhinz/vim-startify'
+  Plugin 'dracula/vim'
 
   call vundle#end()
 else
@@ -30,10 +31,10 @@ endif
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " @dpetker-specific options, etc.
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-if !exists('g:colors_name') || g:colors_name != 'base16-dracula'
+if !exists('g:colors_name') || g:colors_name != 'dracula'
   set termguicolors
   let base16colorspace=256
-  colorscheme base16-dracula
+  colorscheme dracula
 endif
 
 set number
