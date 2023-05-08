@@ -31,11 +31,21 @@ endif
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " @dpetker-specific options, etc.
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-if !exists('g:colors_name') || g:colors_name != 'dracula'
-  set termguicolors
-  let base16colorspace=256
-  colorscheme dracula
-endif
+" Originally from https://vi.stackexchange.com/questions/10708/no-syntax-highlighting-in-tmux
+" Seems to better handle syntax highlighting in vim in tmux
+if $TERM =~# '256color' && ( $TERM =~# '^screen'  || $TERM =~# '^tmux' )                                                                                                            
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"                                                                                                                                            
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"                                                                                                                                            
+  set termguicolors                                                                                                                                                                 
+endif                                                                                                                                                                               
+                                                                                                                                                                                    
+colorscheme dracula
+
+" if !exists('g:colors_name') || g:colors_name != 'dracula'
+"   set termguicolors
+"   let base16colorspace=256
+"   colorscheme dracula
+" endif
 
 set number
 
