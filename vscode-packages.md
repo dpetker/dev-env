@@ -8,6 +8,8 @@
 - EditorConfig - `EditorConfig.EditorConfig`
 - [Dracula Theme](https://draculatheme.com/)
   - `dracula-theme.theme-dracula`
+- Atom One Light Theme
+  - `akamud.vscode-theme-onelight`
 - ~Material Theme:~
   - `Equinusocio.vsc-community-material-theme`
   - `Equinusocio.vsc-material-theme`
