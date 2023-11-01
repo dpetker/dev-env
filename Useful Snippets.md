@@ -68,10 +68,13 @@ If your key isn't there, run `ssh-add -K`
 
 ## Basic git Config
 
-```
-$ git config --global user.name "Your Name Comes Here"
-$ git config --global user.email you@yourdomain.example.com
-$ git config --global color.ui true
+```sh
+git config --global user.name "Your Name Comes Here"
+git config --global user.email you@yourdomain.example.com
+git config --global color.ui true
+
+# Don't use pager for small amounts of text
+git config --global core.pager 'less -F -X'
 ```
 
 ## Colour Scheme
