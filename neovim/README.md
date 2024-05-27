@@ -26,3 +26,10 @@ npm i -g neovim
 
 The healthcheck should tell you what to run to install these things. Once that's done, restart Neovim.
 
+## Misc.
+
+Some random helpful tips and tricks:
+
+* If the delete key doesn't work as expected, it's probably iTerm2 sending the wrong character code. Go into Preferences > Profiles > Keys > Key Mappings and get rid of anything that tries to send the "Del->" combination
+* [Sessions are your friend](https://neovim.io/doc/user/usr_21.html#21.4)
+
