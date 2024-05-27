@@ -3,6 +3,7 @@
 This doc is just a collection of links to help bootstrap my Neovim journey.
 
 * [Neovim](https://neovim.io/)
+* [lazy.nvim](https://github.com/folke/lazy.nvim) (package manager)
 * [Sample config](https://github.com/binarytiger/tonyvim)
 * Useful plugins:
   * [Which Key](https://github.com/folke/which-key.nvim)
