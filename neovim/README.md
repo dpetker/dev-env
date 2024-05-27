@@ -8,3 +8,20 @@ This doc is just a collection of links to help bootstrap my Neovim journey.
   * [Which Key](https://github.com/folke/which-key.nvim)
   * [toggleterm](https://github.com/akinsho/toggleterm.nvim)
 
+## Setup
+
+Once Neovim is set up, run the healthcheck to see what's going on:
+
+```
+:checkhealth
+```
+
+It'll probably say that a bunch of things need to be set up (e.g. Python, node)
+
+```
+pip3 install --user pynvim
+npm i -g neovim
+```
+
+The healthcheck should tell you what to run to install these things. Once that's done, restart Neovim.
+
