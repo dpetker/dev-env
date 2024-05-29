@@ -32,4 +32,5 @@ Some random helpful tips and tricks:
 
 * If the delete key doesn't work as expected, it's probably iTerm2 sending the wrong character code. Go into Preferences > Profiles > Keys > Key Mappings and get rid of anything that tries to send the "Del->" combination
 * [Sessions are your friend](https://neovim.io/doc/user/usr_21.html#21.4)
+* [`ruby_lsp` docs](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ruby_lsp)
 

@@ -28,5 +28,13 @@ require("lazy").setup({
       vim.cmd([[colorscheme dracula]])
     end,
   },
+
+  -- LSP manager
+  {
+    "neovim/nvim-lspconfig",
+    config = function()
+      require("user.lsp")
+    end,
+  }
 })
 
