@@ -5,9 +5,11 @@ This doc is just a collection of links to help bootstrap my Neovim journey.
 * [Neovim](https://neovim.io/)
 * [lazy.nvim](https://github.com/folke/lazy.nvim) (package manager)
 * [Sample config](https://github.com/binarytiger/tonyvim)
+* [Another sample config](https://github.com/DennisTheMenace780/dotfiles/tree/main/.config/nvim)
 * Useful plugins:
   * [Which Key](https://github.com/folke/which-key.nvim)
   * [toggleterm](https://github.com/akinsho/toggleterm.nvim)
+  * [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
   * [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
     * [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) and [nerdfonts](https://www.nerdfonts.com) are both useful for this one, too
 
