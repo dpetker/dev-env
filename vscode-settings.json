@@ -1,45 +1,73 @@
 {
-    "editor.tabSize": 2,
-    "editor.rulers": [
-        80
-    ],
-    "files.insertFinalNewline": true,
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/node_modules": true,
-        "**/.docker-sync": true,
-        "app/build/*": true,
-        "vendor/*": true
-    },
-    "editor.fontFamily": "Fira Code",
-    "files.trimTrailingWhitespace": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Dracula",
-    // "workbench.iconTheme": "eq-material-theme-icons",
-    "workbench.colorCustomizations": {
-        "terminalCursor.foreground": "#EEFFFF"
-    //     "editor.selectionBackground": "#89DDFF50",
-    //     "editor.selectionHighlightBackground": "#9575CD50"
-    },
-    "files.trimFinalNewlines": true,
-    "files.autoSave": "onFocusChange",
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/bower_components": true,
-        "**/app/build/*": true,
-        "**/vendor/*": true,
-        "**/node_modules/*": true
-    },
-    "editor.fontLigatures": true,
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "git.confirmSync": false,
-    "redhat.telemetry.enabled": false,
-    "terminal.integrated.fontFamily": "Fira Code",
+  "editor.tabSize": 2,
+  "editor.rulers": [80],
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/.docker-sync": true
+  },
+  "editor.fontFamily": "Fira Code",
+  "files.trimTrailingWhitespace": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Dracula",
+  "workbench.colorCustomizations": {
+    "terminalCursor.foreground": "#EEFFFF"
+  },
+  "files.trimFinalNewlines": true,
+  "files.autoSave": "onFocusChange",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/node_modules/*": true
+  },
+  "editor.fontLigatures": true,
+  "git.confirmSync": false,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "ruby.lint": {
+    "rubocop": true
+  },
+  "[ruby]": {
+    "editor.formatOnSave": true, // optional
+    "editor.defaultFormatter": null
+    // "editor.formatOnSave": false,
+    // "editor.formatOnPaste": false,
+    // "editor.formatOnType": false
+  },
+  "ruby.format": "rubocop",
+  "ruby.useLanguageServer": true,
+  "ruby.useBundler": true,
+
+  // Set prettier as the default Formatter for TS/TSX
+  // (You could do the same for JS if you wish)
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Set prettier as the default formatter for json/jsonc
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Auto Format Triggers
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.lightIndicatorStyleLineWidth": 2,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.iconTheme": "material-icon-theme"
 }
