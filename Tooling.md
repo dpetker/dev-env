@@ -11,8 +11,8 @@ This is a list of tooling I've found useful (OS X-focused).
 - [tmux](https://github.com/tmux/tmux/wiki)
   - [shortcuts](https://gist.github.com/MohamedAlaa/2961058)
   - [customizations](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
-- [base-16 colour schemes](https://github.com/chriskempson/base16)
-  - **Note:** I've found the best way to get/use these is to use [`base16-shell`](https://github.com/chriskempson/base16-shell) as it'll make things work nicely in vim, ssh, tmux, etc.
+- [Dracula Theme](https://draculatheme.com/)
+  - The site has links to theme variants for iTerm, VSCode, etc.
 - [Rectangle](https://rectangleapp.com/) - Window resizing app for Mac
 
 ## Windows
