@@ -14,6 +14,7 @@ This is a list of tooling I've found useful (OS X-focused).
 - [Dracula Theme](https://draculatheme.com/)
   - The site has links to theme variants for iTerm, VSCode, etc.
 - [Rectangle](https://rectangleapp.com/) - Window resizing app for Mac
+- [DevToys](https://github.com/DevToys-app/DevToysMac)
 
 ## Windows
 
